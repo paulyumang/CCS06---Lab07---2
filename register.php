@@ -10,7 +10,7 @@ try {
     if (isset($_POST['fullname'])) {
         $_SESSION['user_fullname'] = $_POST['fullname'];
         $_SESSION['user_email'] = $_POST['email'];
-        $_SESSION['user_birthdate'] = $_POST['birthdate'];
+        $_SESSION['user_birthdate'] = $_POST['birthday'];
 
         header('Location: quiz.php');
         exit;
